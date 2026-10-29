@@ -1,0 +1,54 @@
+{
+  "title.home": "ASEIDEN SKINIT",
+  "crumb.home": "VARUSTUS",
+  "hint.home": "Valitse mitä haluat vaihtaa",
+
+  "cat.knife": "VEITSI",
+  "cat.gloves": "HANSKAT",
+  "cat.agents": "AGENTIT",
+  "cat.music": "MUSIIKKI",
+  "cat.pins": "KOLIKOT",
+  "cat.weapons": "ASEET",
+  "cat.skins": "SKINIT",
+  "cat.locker": "KAAPPI",
+
+  "group.pistols": "PISTOOLIT",
+  "group.rifles": "KIVÄÄRIT",
+  "group.snipers": "TARKKUUSKIVÄÄRIT",
+  "group.smg": "KONEPISTOOLIT",
+  "group.heavy": "RASKAAT",
+
+  "default": "Oletus",
+  "none": "Ei mitään",
+  "stock": "VAKIO",
+  "vanilla": "VANILJA",
+  "finishes": "{0} SKINIÄ",
+
+  "hint.knife": "{0} veistä, valitse yksi ja sitten sen skini",
+  "hint.finishes": "{0} skiniä, napsauta varustaaksesi",
+  "hint.weapons": "Valitse ase ja sitten sen skini",
+  "hint.equip": "{0} esinettä, napsauta varustaaksesi",
+  "hint.gloves": "{0} hanskamallia, valitse yksi ja sitten sen skini",
+  "hint.agents": "{0} agenttia joukkueelle {1}, napsauta varustaaksesi",
+  "hint.pins": "{0} kolikkoa, voimassa uudelleenyhdistämisen tai kartan vaihdon jälkeen",
+
+  "crumb.finishes": "{0}  /  SKINIT",
+  "crumb.weapons": "ASEET  /  {0}",
+  "crumb.gloves": "HANSKAT  /  {0}",
+  "crumb.team": "PUOLI {0}",
+
+  "chat.opened": " [PMM] Kaappi",
+  "chat.nodb": " [PMM] Kaappi ei auennut: ei yhteyttä WeaponPaints tietokantaan.",
+  "chat.team": " [PMM] Liity T tai CT puolelle avataksesi kaapin.",
+  "chat.layout": " [PMM] Panoramaa ei luotu",
+  "chat.agent": " [PMM] Agentti: {0}",
+  "chat.agent.later": " [PMM] Agentti tallennettu: {0}. Se tulee voimaan seuraavassa syntymässä.",
+  "chat.agent.fail": " [PMM] Agenttia ei tallennettu: ei yhteyttä WeaponPaints tietokantaan.",
+  "chat.saved": " [PMM] Tallennettu: {0}",
+  "chat.savefail": " [PMM] Ei tallennettu: ei yhteyttä WeaponPaints tietokantaan.",
+
+  /* Eight entries split by |, read by rarity number, entry 0 is empty on purpose */
+  "rarity.weapon": "|Kuluttaja|Teollinen|Sotilas|Rajoitettu|Luottamuksellinen|Salainen|Salakuljetus",
+  "rarity.agent": "|||Ansiokas|Poikkeuksellinen|Erinomainen|Mestari|Mestari",
+  "rarity.item": "|Perus|Perus|Korkea|Merkittävä|Eksoottinen|Poikkeuksellinen|Salakuljetus"
+}

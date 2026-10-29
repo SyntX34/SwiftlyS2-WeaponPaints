@@ -1,0 +1,54 @@
+{
+  "title.home": "SKINS DE ARMAS",
+  "crumb.home": "EQUIPAMIENTO",
+  "hint.home": "Elige qué cambiar",
+
+  "cat.knife": "CUCHILLO",
+  "cat.gloves": "GUANTES",
+  "cat.agents": "AGENTES",
+  "cat.music": "MÚSICA",
+  "cat.pins": "MONEDAS",
+  "cat.weapons": "ARMAS",
+  "cat.skins": "SKINS",
+  "cat.locker": "TAQUILLA",
+
+  "group.pistols": "PISTOLAS",
+  "group.rifles": "FUSILES",
+  "group.snipers": "FRANCOTIRADORES",
+  "group.smg": "SUBFUSILES",
+  "group.heavy": "PESADAS",
+
+  "default": "Predeterminado",
+  "none": "Ninguno",
+  "stock": "ESTÁNDAR",
+  "vanilla": "VANILLA",
+  "finishes": "{0} SKINS",
+
+  "hint.knife": "{0} cuchillos, elige uno y luego su skin",
+  "hint.finishes": "{0} skins, haz clic para equipar",
+  "hint.weapons": "Elige un arma y luego su skin",
+  "hint.equip": "{0} objetos, haz clic para equipar",
+  "hint.gloves": "{0} tipos de guantes, elige uno y luego su skin",
+  "hint.agents": "{0} agentes para {1}, haz clic para equipar",
+  "hint.pins": "{0} monedas, se aplican tras reconectar o cambiar de mapa",
+
+  "crumb.finishes": "{0}  /  SKINS",
+  "crumb.weapons": "ARMAS  /  {0}",
+  "crumb.gloves": "GUANTES  /  {0}",
+  "crumb.team": "LADO {0}",
+
+  "chat.opened": " [PMM] Taquilla",
+  "chat.nodb": " [PMM] La taquilla no se abrió: sin conexión a la base de datos de WeaponPaints.",
+  "chat.team": " [PMM] Únete a T o CT para abrir la taquilla.",
+  "chat.layout": " [PMM] El panorama no se creó",
+  "chat.agent": " [PMM] Agente: {0}",
+  "chat.agent.later": " [PMM] Agente guardado: {0}. Se aplica al reaparecer.",
+  "chat.agent.fail": " [PMM] El agente no se guardó: sin conexión a la base de datos de WeaponPaints.",
+  "chat.saved": " [PMM] Guardado: {0}",
+  "chat.savefail": " [PMM] No guardado: sin conexión a la base de datos de WeaponPaints.",
+
+  /* Eight entries split by |, read by rarity number, entry 0 is empty on purpose */
+  "rarity.weapon": "|Consumo|Industrial|Militar|Restringido|Confidencial|Encubierto|Contrabando",
+  "rarity.agent": "|||Distinguido|Excepcional|Superior|Maestro|Maestro",
+  "rarity.item": "|Básico|Básico|Alto grado|Destacado|Exótico|Extraordinario|Contrabando"
+}

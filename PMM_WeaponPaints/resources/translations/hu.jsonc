@@ -1,0 +1,54 @@
+{
+  "title.home": "FEGYVER SKINEK",
+  "crumb.home": "FELSZERELÉS",
+  "hint.home": "Válaszd ki, mit szeretnél módosítani",
+
+  "cat.knife": "KÉS",
+  "cat.gloves": "KESZTYŰ",
+  "cat.agents": "ÜGYNÖKÖK",
+  "cat.music": "ZENE",
+  "cat.pins": "ÉRMÉK",
+  "cat.weapons": "FEGYVEREK",
+  "cat.skins": "SKINEK",
+  "cat.locker": "SZEKRÉNY",
+
+  "group.pistols": "PISZTOLYOK",
+  "group.rifles": "PUSKÁK",
+  "group.snipers": "MESTERLÖVÉSZEK",
+  "group.smg": "GÉPPISZTOLYOK",
+  "group.heavy": "NEHÉZ FEGYVEREK",
+
+  "default": "Alap",
+  "none": "Nincs",
+  "stock": "ALAP",
+  "vanilla": "VANÍLIA",
+  "finishes": "{0} SKIN",
+
+  "hint.knife": "{0} kés, válassz egyet, majd a skinjét",
+  "hint.finishes": "{0} skin, kattints az egyikre a felszereléshez",
+  "hint.weapons": "Válassz fegyvert, majd annak skinjét",
+  "hint.equip": "{0} tárgy, kattints az egyikre a felszereléshez",
+  "hint.gloves": "{0} kesztyűtípus, válassz egyet, majd a skinjét",
+  "hint.agents": "{0} ügynök a {1} oldalra, kattints az egyikre a felszereléshez",
+  "hint.pins": "{0} érme, újracsatlakozás vagy térképváltás után lép életbe",
+
+  "crumb.finishes": "{0}  /  SKINEK",
+  "crumb.weapons": "FEGYVEREK  /  {0}",
+  "crumb.gloves": "KESZTYŰ  /  {0}",
+  "crumb.team": "{0} OLDAL",
+
+  "chat.opened": " [PMM] Szekrény",
+  "chat.nodb": " [PMM] A szekrény nem nyílt meg: nincs kapcsolat a WeaponPaints adatbázissal.",
+  "chat.team": " [PMM] Lépj a T vagy CT csapatba a szekrény megnyitásához.",
+  "chat.layout": " [PMM] A panorama nem jött létre",
+  "chat.agent": " [PMM] Ügynök: {0}",
+  "chat.agent.later": " [PMM] Ügynök mentve: {0}. A következő spawnnál lép életbe.",
+  "chat.agent.fail": " [PMM] Az ügynök nem lett mentve: nincs kapcsolat a WeaponPaints adatbázissal.",
+  "chat.saved": " [PMM] Mentve: {0}",
+  "chat.savefail": " [PMM] Nincs mentve: nincs kapcsolat a WeaponPaints adatbázissal.",
+
+  /* Eight entries split by |, read by rarity number, entry 0 is empty on purpose */
+  "rarity.weapon": "|Fogyasztói|Ipari|Katonai|Korlátozott|Bizalmas|Rejtett|Csempéru",
+  "rarity.agent": "|||Kiemelkedő|Kivételes|Felsőbbrendű|Mester|Mester",
+  "rarity.item": "|Alap|Alap|Magas|Figyelemre méltó|Egzotikus|Rendkívüli|Csempéru"
+}

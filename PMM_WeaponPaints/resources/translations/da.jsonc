@@ -1,0 +1,54 @@
+{
+  "title.home": "VÅBENSKINS",
+  "crumb.home": "UDSTYR",
+  "hint.home": "Vælg hvad du vil ændre",
+
+  "cat.knife": "KNIV",
+  "cat.gloves": "HANDSKER",
+  "cat.agents": "AGENTER",
+  "cat.music": "MUSIK",
+  "cat.pins": "MØNTER",
+  "cat.weapons": "VÅBEN",
+  "cat.skins": "SKINS",
+  "cat.locker": "SKAB",
+
+  "group.pistols": "PISTOLER",
+  "group.rifles": "GEVÆRER",
+  "group.snipers": "SNIGSKYTTER",
+  "group.smg": "MASKINPISTOLER",
+  "group.heavy": "TUNGE",
+
+  "default": "Standard",
+  "none": "Ingen",
+  "stock": "STANDARD",
+  "vanilla": "VANILLA",
+  "finishes": "{0} SKINS",
+
+  "hint.knife": "{0} knive, vælg en og derefter dens skin",
+  "hint.finishes": "{0} skins, klik på en for at udstyre",
+  "hint.weapons": "Vælg et våben og derefter dets skin",
+  "hint.equip": "{0} genstande, klik på en for at udstyre",
+  "hint.gloves": "{0} handsketyper, vælg en og derefter dens skin",
+  "hint.agents": "{0} agenter for {1}, klik på en for at udstyre",
+  "hint.pins": "{0} mønter, gælder efter en genopkobling eller kortskift",
+
+  "crumb.finishes": "{0}  /  SKINS",
+  "crumb.weapons": "VÅBEN  /  {0}",
+  "crumb.gloves": "HANDSKER  /  {0}",
+  "crumb.team": "SIDE {0}",
+
+  "chat.opened": " [PMM] Skab",
+  "chat.nodb": " [PMM] Skabet åbnede ikke: ingen forbindelse til WeaponPaints databasen.",
+  "chat.team": " [PMM] Skift til T eller CT for at åbne skabet.",
+  "chat.layout": " [PMM] Panoramaet blev ikke oprettet",
+  "chat.agent": " [PMM] Agent: {0}",
+  "chat.agent.later": " [PMM] Agent gemt: {0}. Den gælder ved næste spawn.",
+  "chat.agent.fail": " [PMM] Agenten blev ikke gemt: ingen forbindelse til WeaponPaints databasen.",
+  "chat.saved": " [PMM] Gemt: {0}",
+  "chat.savefail": " [PMM] Ikke gemt: ingen forbindelse til WeaponPaints databasen.",
+
+  /* Eight entries split by |, read by rarity number, entry 0 is empty on purpose */
+  "rarity.weapon": "|Forbruger|Industriel|Militær|Begrænset|Fortrolig|Skjult|Smuglergods",
+  "rarity.agent": "|||Fremtrædende|Enestående|Overlegen|Mester|Mester",
+  "rarity.item": "|Basis|Basis|Høj kvalitet|Bemærkelsesværdig|Eksotisk|Ekstraordinær|Smuglergods"
+}

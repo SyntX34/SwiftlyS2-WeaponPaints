@@ -1,0 +1,54 @@
+{
+  "title.home": "WEAPON SKINS",
+  "crumb.home": "LOADOUT",
+  "hint.home": "Pick what to change",
+
+  "cat.knife": "KNIFE",
+  "cat.gloves": "GLOVES",
+  "cat.agents": "AGENTS",
+  "cat.music": "MUSIC",
+  "cat.pins": "COINS",
+  "cat.weapons": "WEAPONS",
+  "cat.skins": "SKINS",
+  "cat.locker": "LOCKER",
+
+  "group.pistols": "PISTOLS",
+  "group.rifles": "RIFLES",
+  "group.snipers": "SNIPERS",
+  "group.smg": "SMG",
+  "group.heavy": "HEAVY",
+
+  "default": "Default",
+  "none": "None",
+  "stock": "STOCK",
+  "vanilla": "VANILLA",
+  "finishes": "{0} FINISHES",
+
+  "hint.knife": "{0} knives, pick one and then its finish",
+  "hint.finishes": "{0} finishes, click one to equip",
+  "hint.weapons": "Pick a weapon and then its finish",
+  "hint.equip": "{0} items, click one to equip",
+  "hint.gloves": "{0} glove types, pick one and then its finish",
+  "hint.agents": "{0} agents for {1}, click one to equip",
+  "hint.pins": "{0} coins, applied after a reconnect or a map change",
+
+  "crumb.finishes": "{0}  /  FINISHES",
+  "crumb.weapons": "WEAPONS  /  {0}",
+  "crumb.gloves": "GLOVES  /  {0}",
+  "crumb.team": "{0} SIDE",
+
+  "chat.opened": " [PMM] Locker",
+  "chat.nodb": " [PMM] The locker did not open: no connection to the WeaponPaints database.",
+  "chat.team": " [PMM] Join T or CT to open the locker.",
+  "chat.layout": " [PMM] The panorama was not created",
+  "chat.agent": " [PMM] Agent: {0}",
+  "chat.agent.later": " [PMM] Agent saved: {0}. It applies on the next spawn.",
+  "chat.agent.fail": " [PMM] The agent was not saved: no connection to the WeaponPaints database.",
+  "chat.saved": " [PMM] Saved: {0}",
+  "chat.savefail": " [PMM] Not saved: no connection to the WeaponPaints database.",
+
+  /* Eight entries split by |, read by rarity number, entry 0 is empty on purpose */
+  "rarity.weapon": "|CONSUMER GRADE|INDUSTRIAL GRADE|MIL-SPEC|RESTRICTED|CLASSIFIED|COVERT|CONTRABAND",
+  "rarity.agent": "|||DISTINGUISHED|EXCEPTIONAL|SUPERIOR|MASTER|MASTER",
+  "rarity.item": "|BASE GRADE|BASE GRADE|HIGH GRADE|REMARKABLE|EXOTIC|EXTRAORDINARY|CONTRABAND"
+}

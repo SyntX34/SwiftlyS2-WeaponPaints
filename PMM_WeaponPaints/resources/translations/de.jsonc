@@ -1,0 +1,54 @@
+{
+  "title.home": "WAFFENSKINS",
+  "crumb.home": "AUSRÜSTUNG",
+  "hint.home": "Wähle, was du ändern willst",
+
+  "cat.knife": "MESSER",
+  "cat.gloves": "HANDSCHUHE",
+  "cat.agents": "AGENTEN",
+  "cat.music": "MUSIK",
+  "cat.pins": "MÜNZEN",
+  "cat.weapons": "WAFFEN",
+  "cat.skins": "SKINS",
+  "cat.locker": "SPIND",
+
+  "group.pistols": "PISTOLEN",
+  "group.rifles": "GEWEHRE",
+  "group.snipers": "SCHAFSCHÜTZEN",
+  "group.smg": "MASCHINENPISTOLEN",
+  "group.heavy": "SCHWER",
+
+  "default": "Standard",
+  "none": "Keine",
+  "stock": "STANDARD",
+  "vanilla": "VANILLA",
+  "finishes": "{0} SKINS",
+
+  "hint.knife": "{0} Messer, wähle eines und dann den Skin",
+  "hint.finishes": "{0} Skins, klicke einen an zum Ausrüsten",
+  "hint.weapons": "Wähle eine Waffe und dann den Skin",
+  "hint.equip": "{0} Gegenstände, klicke einen an zum Ausrüsten",
+  "hint.gloves": "{0} Handschuhtypen, wähle einen und dann den Skin",
+  "hint.agents": "{0} Agenten für {1}, klicke einen an zum Ausrüsten",
+  "hint.pins": "{0} Münzen, wirksam nach einem Reconnect oder Kartenwechsel",
+
+  "crumb.finishes": "{0}  /  SKINS",
+  "crumb.weapons": "WAFFEN  /  {0}",
+  "crumb.gloves": "HANDSCHUHE  /  {0}",
+  "crumb.team": "SEITE {0}",
+
+  "chat.opened": " [PMM] Spind",
+  "chat.nodb": " [PMM] Der Spind öffnete nicht: keine Verbindung zur WeaponPaints Datenbank.",
+  "chat.team": " [PMM] Tritt T oder CT bei, um den Spind zu öffnen.",
+  "chat.layout": " [PMM] Das Panorama wurde nicht erstellt",
+  "chat.agent": " [PMM] Agent: {0}",
+  "chat.agent.later": " [PMM] Agent gespeichert: {0}. Er greift beim nächsten Spawn.",
+  "chat.agent.fail": " [PMM] Der Agent wurde nicht gespeichert: keine Verbindung zur WeaponPaints Datenbank.",
+  "chat.saved": " [PMM] Gespeichert: {0}",
+  "chat.savefail": " [PMM] Nicht gespeichert: keine Verbindung zur WeaponPaints Datenbank.",
+
+  /* Eight entries split by |, read by rarity number, entry 0 is empty on purpose */
+  "rarity.weapon": "|Verbraucher|Industrie|Militär|Limitiert|Vertraulich|Verdeckt|Schmuggelware",
+  "rarity.agent": "|||Angesehen|Außergewöhnlich|Herausragend|Meister|Meister",
+  "rarity.item": "|Einfach|Einfach|Hochwertig|Bemerkenswert|Exotisch|Außergewöhnlich|Schmuggelware"
+}

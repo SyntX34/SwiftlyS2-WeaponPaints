@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <AssemblyName>PMM_WeaponPaints</AssemblyName>
+        <RootNamespace>PMM_WeaponPaints</RootNamespace>
+        <OutputPath>$(MSBuildThisFileDirectory)build/</OutputPath>
+        <PublishDir>$(OutputPath)publish/PMM_WeaponPaints/</PublishDir>
+        <WarningLevel>0</WarningLevel>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0" ExcludeAssets="runtime" PrivateAssets="all"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.0" ExcludeAssets="runtime" PrivateAssets="all"/>
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.0" ExcludeAssets="runtime" PrivateAssets="all"/>
+        
+        <PackageReference Include="MySqlConnector" Version="2.6.2"/>
+        <PackageReference Include="SwiftlyS2.CS2" Version="*" ExcludeAssets="runtime" PrivateAssets="all"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="resources/**/*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="panorama/**/*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <Target Name="CreateZip" AfterTargets="Publish">
+        <ItemGroup>
+            <PublishFiles Include="$(PublishDir)**\*.*"/>
+        </ItemGroup>
+        <ZipDirectory SourceDirectory="$(PublishDir)../" DestinationFile="$(OutputPath)../PMM_WeaponPaints.zip" Overwrite="true"/>
+    </Target>
+
+</Project>

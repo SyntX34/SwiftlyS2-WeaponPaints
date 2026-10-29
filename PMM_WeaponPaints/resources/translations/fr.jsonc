@@ -1,0 +1,54 @@
+{
+  "title.home": "SKINS D'ARMES",
+  "crumb.home": "ÉQUIPEMENT",
+  "hint.home": "Choisis ce que tu veux changer",
+
+  "cat.knife": "COUTEAU",
+  "cat.gloves": "GANTS",
+  "cat.agents": "AGENTS",
+  "cat.music": "MUSIQUE",
+  "cat.pins": "PIÈCES",
+  "cat.weapons": "ARMES",
+  "cat.skins": "SKINS",
+  "cat.locker": "CASIER",
+
+  "group.pistols": "PISTOLETS",
+  "group.rifles": "FUSILS",
+  "group.snipers": "SNIPERS",
+  "group.smg": "PISTOLETS MITRAILLEURS",
+  "group.heavy": "LOURDES",
+
+  "default": "Par défaut",
+  "none": "Aucun",
+  "stock": "DÉFAUT",
+  "vanilla": "VANILLE",
+  "finishes": "{0} SKINS",
+
+  "hint.knife": "{0} couteaux, choisis en un puis son skin",
+  "hint.finishes": "{0} skins, clique pour équiper",
+  "hint.weapons": "Choisis une arme puis son skin",
+  "hint.equip": "{0} objets, clique pour équiper",
+  "hint.gloves": "{0} types de gants, choisis en un puis son skin",
+  "hint.agents": "{0} agents pour {1}, clique pour équiper",
+  "hint.pins": "{0} pièces, appliquées après une reconnexion ou un changement de carte",
+
+  "crumb.finishes": "{0}  /  SKINS",
+  "crumb.weapons": "ARMES  /  {0}",
+  "crumb.gloves": "GANTS  /  {0}",
+  "crumb.team": "CÔTÉ {0}",
+
+  "chat.opened": " [PMM] Casier",
+  "chat.nodb": " [PMM] Le casier ne s'est pas ouvert : pas de connexion à la base WeaponPaints.",
+  "chat.team": " [PMM] Rejoins les T ou les CT pour ouvrir le casier.",
+  "chat.layout": " [PMM] Le panorama n'a pas été créé",
+  "chat.agent": " [PMM] Agent : {0}",
+  "chat.agent.later": " [PMM] Agent enregistré : {0}. Il s'applique au prochain spawn.",
+  "chat.agent.fail": " [PMM] L'agent n'a pas été enregistré : pas de connexion à la base WeaponPaints.",
+  "chat.saved": " [PMM] Enregistré : {0}",
+  "chat.savefail": " [PMM] Non enregistré : pas de connexion à la base WeaponPaints.",
+
+  /* Eight entries split by |, read by rarity number, entry 0 is empty on purpose */
+  "rarity.weapon": "|Consommateur|Industriel|Militaire|Restreint|Confidentiel|Secret|Contrebande",
+  "rarity.agent": "|||Remarquable|Exceptionnel|Supérieur|Maître|Maître",
+  "rarity.item": "|Basique|Basique|Haut de gamme|Remarquable|Exotique|Extraordinaire|Contrebande"
+}
